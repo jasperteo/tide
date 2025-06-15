@@ -13,7 +13,7 @@ set -lx tide_bun_icon 󰳓
 
 _bun # CHECK:
 
-touch bun.lockb
+touch bun.lock
 _bun # CHECK: 󰳓 1.0.24
 
 command rm -r $tmpdir
